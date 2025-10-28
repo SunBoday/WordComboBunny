@@ -1,0 +1,12 @@
+platform :ios, '14.0'
+
+target 'WordComboBunny' do
+  use_frameworks!
+
+  # Pods for WordComboBunny
+  pod 'AppsFlyerFramework'
+  pod 'IQKeyboardManagerSwift'
+  pod 'LookinServer', :configurations => ['Debug']
+  pod 'Firebase/Messaging'
+end
+

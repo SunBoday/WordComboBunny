@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5C12A81B9FCC48CF56812D /* Pods_WordComboBunny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FBCF61DBD8F3854D8F6F03 /* Pods_WordComboBunny.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F876CB7A2EB047AC002DF0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F876CB5B2EB047AB002DF0A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F876CB622EB047AB002DF0A2;
+			remoteInfo = WordComboBunny;
+		};
+		F876CB842EB047AC002DF0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F876CB5B2EB047AB002DF0A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F876CB622EB047AB002DF0A2;
+			remoteInfo = WordComboBunny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28FBCF61DBD8F3854D8F6F03 /* Pods_WordComboBunny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordComboBunny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5A636D5BA5F02396C87B9A /* Pods-WordComboBunny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordComboBunny.release.xcconfig"; path = "Target Support Files/Pods-WordComboBunny/Pods-WordComboBunny.release.xcconfig"; sourceTree = "<group>"; };
+		DB60DF6AC2883A35139B14F9 /* Pods-WordComboBunny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordComboBunny.debug.xcconfig"; path = "Target Support Files/Pods-WordComboBunny/Pods-WordComboBunny.debug.xcconfig"; sourceTree = "<group>"; };
+		F876CB632EB047AB002DF0A2 /* WordComboBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordComboBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F876CB792EB047AC002DF0A2 /* WordComboBunnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordComboBunnyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F876CB832EB047AC002DF0A2 /* WordComboBunnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordComboBunnyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F876CB8B2EB047AC002DF0A2 /* Exceptions for "WordComboBunny" folder in "WordComboBunny" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F876CB622EB047AB002DF0A2 /* WordComboBunny */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F876CB652EB047AB002DF0A2 /* WordComboBunny */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F876CB8B2EB047AC002DF0A2 /* Exceptions for "WordComboBunny" folder in "WordComboBunny" target */,
+			);
+			path = WordComboBunny;
+			sourceTree = "<group>";
+		};
+		F876CB7C2EB047AC002DF0A2 /* WordComboBunnyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WordComboBunnyTests;
+			sourceTree = "<group>";
+		};
+		F876CB862EB047AC002DF0A2 /* WordComboBunnyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WordComboBunnyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F876CB602EB047AB002DF0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5C12A81B9FCC48CF56812D /* Pods_WordComboBunny.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F876CB762EB047AC002DF0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F876CB802EB047AC002DF0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179A8717C2D914212D5A6BDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28FBCF61DBD8F3854D8F6F03 /* Pods_WordComboBunny.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2AB2A52687D581D6D6F0F23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB60DF6AC2883A35139B14F9 /* Pods-WordComboBunny.debug.xcconfig */,
+				CF5A636D5BA5F02396C87B9A /* Pods-WordComboBunny.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F876CB5A2EB047AB002DF0A2 = {
+			isa = PBXGroup;
+			children = (
+				F876CB652EB047AB002DF0A2 /* WordComboBunny */,
+				F876CB7C2EB047AC002DF0A2 /* WordComboBunnyTests */,
+				F876CB862EB047AC002DF0A2 /* WordComboBunnyUITests */,
+				F876CB642EB047AB002DF0A2 /* Products */,
+				B2AB2A52687D581D6D6F0F23 /* Pods */,
+				179A8717C2D914212D5A6BDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F876CB642EB047AB002DF0A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F876CB632EB047AB002DF0A2 /* WordComboBunny.app */,
+				F876CB792EB047AC002DF0A2 /* WordComboBunnyTests.xctest */,
+				F876CB832EB047AC002DF0A2 /* WordComboBunnyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F876CB622EB047AB002DF0A2 /* WordComboBunny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F876CB8C2EB047AC002DF0A2 /* Build configuration list for PBXNativeTarget "WordComboBunny" */;
+			buildPhases = (
+				B3E8E02AF41BD99F99C6341A /* [CP] Check Pods Manifest.lock */,
+				F876CB5F2EB047AB002DF0A2 /* Sources */,
+				F876CB602EB047AB002DF0A2 /* Frameworks */,
+				F876CB612EB047AB002DF0A2 /* Resources */,
+				884C207F124C6C43511F13E2 /* [CP] Embed Pods Frameworks */,
+				C9A53A1D6BA149A1318EB6E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F876CB652EB047AB002DF0A2 /* WordComboBunny */,
+			);
+			name = WordComboBunny;
+			productName = WordComboBunny;
+			productReference = F876CB632EB047AB002DF0A2 /* WordComboBunny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F876CB782EB047AC002DF0A2 /* WordComboBunnyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F876CB912EB047AC002DF0A2 /* Build configuration list for PBXNativeTarget "WordComboBunnyTests" */;
+			buildPhases = (
+				F876CB752EB047AC002DF0A2 /* Sources */,
+				F876CB762EB047AC002DF0A2 /* Frameworks */,
+				F876CB772EB047AC002DF0A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F876CB7B2EB047AC002DF0A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F876CB7C2EB047AC002DF0A2 /* WordComboBunnyTests */,
+			);
+			name = WordComboBunnyTests;
+			productName = WordComboBunnyTests;
+			productReference = F876CB792EB047AC002DF0A2 /* WordComboBunnyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F876CB822EB047AC002DF0A2 /* WordComboBunnyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F876CB942EB047AC002DF0A2 /* Build configuration list for PBXNativeTarget "WordComboBunnyUITests" */;
+			buildPhases = (
+				F876CB7F2EB047AC002DF0A2 /* Sources */,
+				F876CB802EB047AC002DF0A2 /* Frameworks */,
+				F876CB812EB047AC002DF0A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F876CB852EB047AC002DF0A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F876CB862EB047AC002DF0A2 /* WordComboBunnyUITests */,
+			);
+			name = WordComboBunnyUITests;
+			productName = WordComboBunnyUITests;
+			productReference = F876CB832EB047AC002DF0A2 /* WordComboBunnyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F876CB5B2EB047AB002DF0A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					F876CB622EB047AB002DF0A2 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F876CB782EB047AC002DF0A2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F876CB622EB047AB002DF0A2;
+					};
+					F876CB822EB047AC002DF0A2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F876CB622EB047AB002DF0A2;
+					};
+				};
+			};
+			buildConfigurationList = F876CB5E2EB047AB002DF0A2 /* Build configuration list for PBXProject "WordComboBunny" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+				da,
+				bn,
+				fi,
+			);
+			mainGroup = F876CB5A2EB047AB002DF0A2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F876CB642EB047AB002DF0A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F876CB622EB047AB002DF0A2 /* WordComboBunny */,
+				F876CB782EB047AC002DF0A2 /* WordComboBunnyTests */,
+				F876CB822EB047AC002DF0A2 /* WordComboBunnyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F876CB612EB047AB002DF0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F876CB772EB047AC002DF0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F876CB812EB047AC002DF0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		884C207F124C6C43511F13E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordComboBunny/Pods-WordComboBunny-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordComboBunny/Pods-WordComboBunny-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WordComboBunny/Pods-WordComboBunny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3E8E02AF41BD99F99C6341A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WordComboBunny-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A53A1D6BA149A1318EB6E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordComboBunny/Pods-WordComboBunny-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordComboBunny/Pods-WordComboBunny-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WordComboBunny/Pods-WordComboBunny-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F876CB5F2EB047AB002DF0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F876CB752EB047AC002DF0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F876CB7F2EB047AC002DF0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F876CB7B2EB047AC002DF0A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F876CB622EB047AB002DF0A2 /* WordComboBunny */;
+			targetProxy = F876CB7A2EB047AC002DF0A2 /* PBXContainerItemProxy */;
+		};
+		F876CB852EB047AC002DF0A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F876CB622EB047AB002DF0A2 /* WordComboBunny */;
+			targetProxy = F876CB842EB047AC002DF0A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F876CB8D2EB047AC002DF0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB60DF6AC2883A35139B14F9 /* Pods-WordComboBunny.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordComboBunny/WordComboBunny.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordComboBunny/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "WordCombo Bunny";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.WordComboBunny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F876CB8E2EB047AC002DF0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5A636D5BA5F02396C87B9A /* Pods-WordComboBunny.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordComboBunny/WordComboBunny.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordComboBunny/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "WordCombo Bunny";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.WordComboBunny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F876CB8F2EB047AC002DF0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F876CB902EB047AC002DF0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F876CB922EB047AC002DF0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.WordComboBunnyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordComboBunny.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordComboBunny";
+			};
+			name = Debug;
+		};
+		F876CB932EB047AC002DF0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.WordComboBunnyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordComboBunny.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordComboBunny";
+			};
+			name = Release;
+		};
+		F876CB952EB047AC002DF0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.WordComboBunnyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WordComboBunny;
+			};
+			name = Debug;
+		};
+		F876CB962EB047AC002DF0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.WordComboBunnyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WordComboBunny;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F876CB5E2EB047AB002DF0A2 /* Build configuration list for PBXProject "WordComboBunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F876CB8F2EB047AC002DF0A2 /* Debug */,
+				F876CB902EB047AC002DF0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F876CB8C2EB047AC002DF0A2 /* Build configuration list for PBXNativeTarget "WordComboBunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F876CB8D2EB047AC002DF0A2 /* Debug */,
+				F876CB8E2EB047AC002DF0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F876CB912EB047AC002DF0A2 /* Build configuration list for PBXNativeTarget "WordComboBunnyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F876CB922EB047AC002DF0A2 /* Debug */,
+				F876CB932EB047AC002DF0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F876CB942EB047AC002DF0A2 /* Build configuration list for PBXNativeTarget "WordComboBunnyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F876CB952EB047AC002DF0A2 /* Debug */,
+				F876CB962EB047AC002DF0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F876CB5B2EB047AB002DF0A2 /* Project object */;
+}

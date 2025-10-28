@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WordComboBunny" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-40.458015267175568" y="-27.464788732394368"/>
+        </scene>
+        <!--Combo Privacy PolicyVC-->
+        <scene sceneID="INW-2r-wyr">
+            <objects>
+                <viewController storyboardIdentifier="ComboPrivacyPolicyVC" id="IUq-sh-G7c" customClass="ComboPrivacyPolicyVC" customModule="WordComboBunny" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W0L-2F-3rb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0D-cp-4zq">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="pyS-X6-ZUs">
+                                <rect key="frame" x="178" y="407.66666666666669" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xaE-nw-SB0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="T0D-cp-4zq" secondAttribute="bottom" id="1QV-Ks-Ac1"/>
+                            <constraint firstItem="T0D-cp-4zq" firstAttribute="top" secondItem="W0L-2F-3rb" secondAttribute="top" id="6lu-Hp-9Ws"/>
+                            <constraint firstItem="T0D-cp-4zq" firstAttribute="leading" secondItem="W0L-2F-3rb" secondAttribute="leading" id="ER5-EZ-oPQ"/>
+                            <constraint firstItem="pyS-X6-ZUs" firstAttribute="centerY" secondItem="W0L-2F-3rb" secondAttribute="centerY" id="OZU-hJ-nkf"/>
+                            <constraint firstAttribute="trailing" secondItem="T0D-cp-4zq" secondAttribute="trailing" id="SUW-hC-eKw"/>
+                            <constraint firstItem="pyS-X6-ZUs" firstAttribute="centerX" secondItem="W0L-2F-3rb" secondAttribute="centerX" id="p6o-pF-Mcz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="comboBottomCos" destination="1QV-Ks-Ac1" id="m2A-ab-VOd"/>
+                        <outlet property="comboCos" destination="6lu-Hp-9Ws" id="ohg-HJ-Jtf"/>
+                        <outlet property="comboIndicatorView" destination="pyS-X6-ZUs" id="AE2-nN-UdD"/>
+                        <outlet property="comboWebView" destination="T0D-cp-4zq" id="9hx-aV-uxH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c7K-zh-tNz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-993.12977099236639" y="571.12676056338034"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
